@@ -1,0 +1,8 @@
+Letter,SMILES
+A,[*]C
+F,[*]CC1=CC=CC=C1
+G,[*][H]
+I,[*][C@](CC)([H])C
+L,[*]CC(C)C
+V,[*]C(C)C
+Y,[*]CC1=CC=C(O)C=C1
