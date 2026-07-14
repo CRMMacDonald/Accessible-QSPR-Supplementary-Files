@@ -1,8 +1,8 @@
 # Accessible-QSPR-Supplementary-Files
 Data to accompany the paper "An accessible property classification framework to predict the solubility of functionalised naphthalenes and rylenes in organic solvents".
 
-# Header: Enviromment Installation
-## subheader: Installation of virtual environment
+# Enviromment Installation
+## Installation of virtual environment
 
 Create an isolated environment to avoid conflict with system packages:
 
@@ -18,7 +18,7 @@ $ python -m venv prog_name_venv
 Activate it:
 $ source ./prog_name_venv/bin/activate
 
-## subheader: Installation of dependencies and packages:
+## Installation of dependencies and packages:
 
 (prog_name_venv) $ python -m pip install -r requirements.txt
 
