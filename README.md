@@ -1,28 +1,56 @@
-# Accessible-QSPR-Supplementary-Files
-Data to accompany the paper "An accessible property classification framework to predict the solubility of functionalised naphthalenes and rylenes in organic solvents".
+# Accessible QSPR Supplementary Files
+Supplementary data and notebooks accompanying the paper:
 
-# Enviromment Installation
-## Installation of virtual environment
+*"An accessible property classification framework to predict the solubility of functionalised naphthalenes and rylenes in organic solvents".*
 
-Create an isolated environment to avoid conflict with system packages:
+## Environment Installation
+### Creation of Virtual Environment
+
+Create an isolated environment to avoid conflicts with system packages.
 
 Create a working folder:
-$ mkdir program_name && cd program_name
+```bash
+mkdir program_name && cd program_name
+```
 
 Clone the repository:
-$ git clone https://github.com/CRMMacDonald/Accessible-QSPR-Supplementary-Files.git
+```bash
+git clone https://github.com/CRMMacDonald/Accessible-QSPR-Supplementary-Files.git
+```
 
-Create a virtual environment, using either conda, python venv, or ideally providing both options, for example:
-$ python -m venv prog_name_venv
+Create a virtual environment using Python venv:
+```bash
+python -m venv venv_name
+```
 
 Activate it:
-$ source ./prog_name_venv/bin/activate
+```bash
+source ./venv_name/bin/activate
+```
 
-## Installation of dependencies and packages:
+### Installation of Dependencies and Packages
+With the environment activated, the required dependencies and packages can be installed using pip or Conda.
 
-(prog_name_venv) $ python -m pip install -r requirements.txt
+Pip option (via the requirements.txt file):
+```bash
+python -m pip install -r requirements.txt
+```
 
-Coda option (via the environment.yml file):
+Conda option (via the environment.yml file):
 
-(prog_name_venv) $ conda env create -f environment.yml
-(prog_name_venv) $conda activate prog_name_venv
+```bash
+conda env create -f environment.yml
+conda activate venv_name
+```
+
+## Jupyter Notebooks
+
+The repository contains the following notebooks:
+
+### Smiles Writer Explanation Notebook.ipynb
+
+Using a CSV file containing SMILES representations of amino acid side chains (such as those provided in AASC_SMILES_Curated.csv) and a core SMILES structure, the notebook outputs a CSV with each possible output SMILES structure where a single wildcard is substituted.
+
+### Dipeptide Smiles Writer Explanation Notebook.ipynb
+
+Using a CSV file containing SMILES representations of amino acid side chains (such as those provided in AASC_SMILES_Curated.csv) and a core SMILES structure, the notebook outputs a CSV with each possible output SMILES structure where every possible pairwise permutation of wildcards is substituted.
