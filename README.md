@@ -47,10 +47,14 @@ conda activate venv_name
 
 The repository contains the following notebooks:
 
-### Smiles Writer Explanation Notebook.ipynb
+### [Smiles Writer Explanation Notebook.ipynb](https://github.com/CRMMacDonald/Accessible-QSPR-Supplementary-Files/blob/main/Smiles%20Writer%20Explanation%20Notebook.ipynb)
 
-Using a CSV file containing SMILES representations of amino acid side chains (such as those provided in AASC_SMILES_Curated.csv) and a core SMILES structure, the notebook outputs a CSV with each possible output SMILES structure where a single wildcard is substituted.
+Using a CSV file containing SMILES representations of amino acid side chains (such as those provided in AASC_SMILES_Curated.csv) and a core SMILES structure.
 
-### Dipeptide Smiles Writer Explanation Notebook.ipynb
+The notebook outputs a CSV with each possible output SMILES structure where a single wildcard is substituted.
 
-Using a CSV file containing SMILES representations of amino acid side chains (such as those provided in AASC_SMILES_Curated.csv) and a core SMILES structure, the notebook outputs a CSV with each possible output SMILES structure where every possible pairwise permutation of wildcards is substituted.
+### [Dipeptide Smiles Writer Explanation Notebook.ipynb](https://github.com/CRMMacDonald/Accessible-QSPR-Supplementary-Files/blob/main/Dipeptide%20Smiles%20Writer%20Explanation%20Notebook.ipynb)
+
+Using a CSV file containing SMILES representations of amino acid side chains (such as those provided in AASC_SMILES_Curated.csv) and a core SMILES structure.
+
+The notebook outputs a CSV with each possible output SMILES structure where every possible pairwise permutation of wildcards is substituted.
